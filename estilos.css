@@ -1,0 +1,40 @@
+* {
+    font: serif;
+    color: #ffff;
+    align-items: top;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: medium;
+}
+
+#valor1 {
+    color:rgb(10, 10, 10);
+}
+
+#valor2 {
+    color:rgb(10, 10, 10);
+}   
+
+.calculadora {
+    display: flexbox;
+    background-color: #0650f0;
+    padding: 15px;
+    border-radius: 15px;
+}
+button {
+    width: 25px;
+    height: 35px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 32px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #131414;
+    size: 7;
+}
